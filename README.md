@@ -65,16 +65,6 @@ Copy code
 git push origin feature/YourFeature
 Open a pull request.
 
-Contact
-For any inquiries, please reach out to:
-
-[Your Name] - [Your Email]
-GitHub: sugandhi15
 
 Thank you for checking out FundMe! We hope you find it useful for your fundraising needs. Happy coding!
-
-
-
-
-
 
