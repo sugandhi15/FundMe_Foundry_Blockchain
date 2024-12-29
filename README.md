@@ -12,42 +12,7 @@ FundMe is a decentralized application (DApp) built with Foundry for smart contra
 
 ## Project Structure
 
-FundMe/ 
-├── Makefile # Build automation file 
-├── .env # Environment variables 
-├── .gitignore # Ignored files for git 
-├── foundry.toml # Foundry configuration 
-├── script/ 
-    │ 
-    ├── DeployFundMe.s.sol # Deployment script 
-    │ 
-    ├── HelperConfig.s.sol # Configuration helper script 
-    │ 
-    ├── Interactions.s.sol # Interaction script for testing 
-├── src/ 
-    │
-    ├── FundMe.sol # Main FundMe contract 
-    │ 
-    ├── PriceConvertor.sol # Price conversion library 
-├── test/ 
-    │ 
-    ├── interaction/ 
-        │   
-        └── TestInteractions.t.sol # Integration tests 
-    │ 
-    ├── unit/ 
-        │ 
-        ├── FundMeTest.t.sol # Unit tests for FundMe 
-        │ 
-        └── zkSyncDevOps.t.sol # DevOps-related tests 
-├── lib/ 
-    │    
-    ├── chainlink-brownie-contracts # Chainlink contracts for price feeds 
-    │    
-    ├── foundry-devops # Foundry development tools
-    |
-    └──forge-std
-
+FundMe/ ├── Makefile # Build automation file ├── .env # Environment variables ├── .gitignore # Ignored files for git ├── foundry.toml # Foundry configuration ├── script/ # Scripts for deployment and testing │ ├── DeployFundMe.s.sol # Deployment script │ ├── HelperConfig.s.sol # Configuration helper script │ └── Interactions.s.sol # Interaction script for testing ├── src/ # Smart contracts │ ├── FundMe.sol # Main FundMe contract │ └── PriceConvertor.sol # Price conversion library ├── test/ # Test files │ ├── interaction/ # Integration tests │ │ └── TestInteractions.t.sol │ └── unit/ # Unit tests │ ├── FundMeTest.t.sol │ └── zkSyncDevOps.t.sol ├── lib/ # External libraries │ ├── chainlink-brownie-contracts # Chainlink contracts for price feeds │ ├── foundry-devops # Foundry development tools │ └── forge-std # Standard testing library
 
 ## Smart Contracts
 
