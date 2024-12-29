@@ -32,8 +32,8 @@ FundMe is a decentralized application (DApp) built with Foundry for smart contra
 - An Ethereum wallet like [MetaMask](https://metamask.io/)
 - A Sepolia testnet faucet for ETH (if deploying on testnets).
 
-#Acknowledgments
-Foundry for testing and deployment tools.
-Chainlink for price feed integration.
-The Ethereum community for their continued support and innovation.
+#Acknowledgments :
+ -Foundry for testing and deployment tools.
+ -Chainlink for price feed integration.
+ -The Ethereum community for their continued support and innovation.
 
