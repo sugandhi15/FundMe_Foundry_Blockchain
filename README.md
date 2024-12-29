@@ -13,6 +13,7 @@ FundMe is a decentralized application (DApp) built with Foundry for smart contra
 ## Project Structure
 
 
+```plaintext
 FundMe/
 ├── Makefile                  # Build automation file
 ├── .env                      # Environment variables
